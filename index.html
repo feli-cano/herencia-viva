@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Herencia Viva</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     NAVBAR — sticky + scroll-effect + hamburger animado
+     ═══════════════════════════════════════════════════ -->
+<header class="header" id="mainHeader">
+    <nav class="nav">
+        <h1 class="logo">
+            <span class="logo-hv">HERENCIA</span>
+            <span class="logo-viva">VIVA</span>
+        </h1>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="menu" id="mainMenu">
+            <a href="#inicio" class="nav-link">Inicio</a>
+            <span class="nav-sep"></span>
+            <a href="#quienes" class="nav-link">Introducción</a>
+            <span class="nav-sep"></span>
+            <a href="#objetivo-general" class="nav-link">Objetivo General</a>
+            <span class="nav-sep"></span>
+            <a href="#objetivos" class="nav-link">Objetivos</a>
+            <span class="nav-sep"></span>
+            <a href="#historia" class="nav-link">Historia</a>
+            <span class="nav-sep"></span>
+            <a href="#proyectos" class="nav-link">Proyectos</a>
+        </div>
+    </nav>
+</header>
+
+<!-- ════════════════════
+     HERO
+     ════════════════════ -->
+<section id="inicio" class="hero">
+    <img src="assets/images/image (3).png" alt="Herencia Viva - Cultura Afrocolombiana">
+    <div class="hero-overlay"></div>
+
+    <div class="overlay">
+        <div class="overlay-badge">● Buenaventura, Colombia</div>
+        <h1>HERENCIA VIVA</h1>
+        <p>Cultura afrocolombiana que resiste, crea y permanece</p>
+        <a href="#quienes" class="hero-cta">
+            Descubrir más
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+    </div>
+
+    <div class="hero-scroll-indicator">
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ════════════════════
+     INTRODUCCIÓN
+     ════════════════════ -->
+<section id="quienes" class="section">
+    <div class="section-img-wrap animate-on-scroll">
+        <img src="assets/images/section2.jpg.png" alt="Introducción - Jóvenes de Buenaventura">
+        <div class="img-accent img-accent--naranja"></div>
+    </div>
+
+    <div class="text animate-on-scroll delay-1">
+        <div class="section-label">01 — Quiénes Somos</div>
+        <h2 class="titulo naranja">Introducción</h2>
+        <div class="titulo-underline naranja-bg"></div>
+        <p>
+        Somos un grupo de jóvenes soñadores, orgullosos de nuestras raíces y profundamente enamorados de nuestra tierra Buenaventura. 
+        Hemos decidido alzar la voz y trabajar juntos en un proyecto que busca mostrarle no solo a el país, sino al mundo entero que nuestra ciudad es mucho más que lo que a veces muestran las noticias.
+        </p>
+    </div>
+</section>
+
+<!-- ════════════════════
+     OBJETIVO GENERAL
+     ════════════════════ -->
+<section id="objetivo-general" class="section alt">
+    <div class="section-img-wrap animate-on-scroll">
+        <img src="assets/images/image (2).png" alt="Objetivo General - Identidad Cultural">
+        <div class="img-accent img-accent--rojo"></div>
+    </div>
+
+    <div class="text animate-on-scroll delay-1">
+        <div class="section-label">02 — Propósito</div>
+        <h2 class="titulo rojo">Objetivo General</h2>
+        <div class="titulo-underline rojo-bg"></div>
+        <p>
+        Fortalecer y preservar la identidad cultural del Distrito de Buenaventura mediante un proceso de integración conscientes de las nuevas culturas que han emigrado a el puerto como la estadounidense. 
+        Herencia viva busca generar una conexión entre lo antiguo y lo moderno, pero siempre resaltando el patrimonio cultural ancestral de nuestro Bello Puerto.
+        </p>
+    </div>
+</section>
+
+<!-- ════════════════════
+     OBJETIVOS ESPECÍFICOS
+     ════════════════════ -->
+<section id="objetivos" class="section">
+    <div class="section-img-wrap animate-on-scroll">
+        <img src="assets/images/image (1).png" alt="Objetivos Específicos">
+        <div class="img-accent img-accent--naranja"></div>
+    </div>
+
+    <div class="text animate-on-scroll delay-1">
+        <div class="section-label">03 — Metas</div>
+        <h2 class="titulo naranja">Objetivos Específicos</h2>
+        <div class="titulo-underline naranja-bg"></div>
+        <ul class="objectives-list">
+            <li>
+                <span class="obj-num">01</span>
+                <span>Analizar el impacto de los procesos de urbanización y conflictos.</span>
+            </li>
+            <li>
+                <span class="obj-num">02</span>
+                <span>Rescatar y visibilizar las tradiciones orales y musicales.</span>
+            </li>
+            <li>
+                <span class="obj-num">03</span>
+                <span>Fortalecer espacios culturales.</span>
+            </li>
+            <li>
+                <span class="obj-num">04</span>
+                <span>Identificar y documentar expresiones culturales y tradicionales afrodescendientes.</span>
+            </li>
+            <li>
+                <span class="obj-num">05</span>
+                <span>Fomentar la participación comunitaria.</span>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ════════════════════
+     HISTORIA
+     ════════════════════ -->
+<section id="historia" class="section alt">
+    <div class="section-img-wrap animate-on-scroll">
+        <img src="assets/images/section3.jpg.png" alt="Historia de Buenaventura">
+        <div class="img-accent img-accent--cafe"></div>
+    </div>
+
+    <div class="text animate-on-scroll delay-1">
+        <div class="section-label">04 — Raíces</div>
+        <h2 class="titulo cafe">Historia e Importancia</h2>
+        <div class="titulo-underline cafe-bg"></div>
+        <p>
+        El Distrito Especial de Buenaventura, Ubicado en la Costa Pacífica Colombiana, es un puerto lleno de historia, fundado en 1540 por el teniente Juan de Ladrillero, 
+        desde sus inicios se convirtió en un lugar estratégico para el comercio y la navegación, teniendo conexiones con regiones extranjeras, la construcción del ferrocarril en el año 1878 rigió de manera significativa el rol económico y con ello fortaleciéndolo.
+        </p>
+        <p>
+        Esta cultura descendiente de África, de la cual una gran parte de su población fue transportada de manera forzosa al continente americano, y por consecuencia, llegarían a las costas del Pacifico, desarrollaron una cultura hermosa y rica.
+        </p>
+    </div>
+</section>
+
+<!-- ════════════════════
+     PROYECTOS
+     ════════════════════ -->
+<section id="proyectos" class="section proyectos-section">
+    <div class="section-img-wrap animate-on-scroll">
+        <img src="assets/images/section4.jpg.png" alt="Proyectos Herencia Viva">
+        <div class="img-accent img-accent--amarillo"></div>
+    </div>
+
+    <div class="text animate-on-scroll delay-1">
+        <div class="section-label">05 — Iniciativas</div>
+        <h2 class="titulo amarillo">Proyectos</h2>
+        <div class="titulo-underline amarillo-bg"></div>
+
+        <div class="cards">
+            <div class="card" onclick="mostrarProyecto(event,'memorias')" data-tipo="memorias">
+                <div class="card-icon">🌱</div>
+                <div class="card-title">Sembrando Memorias</div>
+                <div class="card-arrow">→</div>
+            </div>
+            <div class="card" onclick="mostrarProyecto(event,'raices')" data-tipo="raices">
+                <div class="card-icon">🎵</div>
+                <div class="card-title">Sonido de Raíces</div>
+                <div class="card-arrow">→</div>
+            </div>
+            <div class="card" onclick="mostrarProyecto(event,'memoria')" data-tipo="memoria">
+                <div class="card-icon">🎬</div>
+                <div class="card-title">Memoria que Suena</div>
+                <div class="card-arrow">→</div>
+            </div>
+            <div class="card" onclick="mostrarProyecto(event,'sabor')" data-tipo="sabor">
+                <div class="card-icon">🍽️</div>
+                <div class="card-title">Sabor y Ritmo</div>
+                <div class="card-arrow">→</div>
+            </div>
+        </div>
+
+        <div id="contenidoProyecto" class="contenido-proyecto">
+            <p class="placeholder-text">Haz clic en un proyecto para ver la información.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════
+     FOOTER
+     ════════════════════ -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-logo">HERENCIA VIVA</div>
+        <p class="footer-tagline">Cultura afrocolombiana que resiste, crea y permanece</p>
+        <div class="footer-divider"></div>
+        <p class="footer-copy">Buenaventura · Costa Pacífica Colombiana</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
